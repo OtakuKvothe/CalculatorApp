@@ -2,7 +2,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {TouchableOpacity, StyleSheet, Text, Dimensions} from 'react-native';
-import {create} from 'react-test-renderer';
+//import {create} from 'react-test-renderer';
 
 const screen = Dimensions.get('window');
 const buttonWidth = screen.width / 4;
