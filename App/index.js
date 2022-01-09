@@ -33,6 +33,9 @@ export default class App extends React.Component {
             <View style={styles.container}>
                 <StatusBar barStyle='light-content' />
                 <SafeAreaView>
+                <Text style={styles.value}>
+                        {parseFloat(this.state.previousValue).toLocaleString()}
+                    </Text>
                     <Text style={styles.value}>
                         {parseFloat(this.state.currentValue).toLocaleString()}
                     </Text>

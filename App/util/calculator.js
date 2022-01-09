@@ -2,7 +2,7 @@
 export const initialState = {
     currentValue: '0',
     operator: null,
-    previousValue: null
+    previousValue: '0'
 };
 
 export const handleNumber = (value, state) => {
@@ -24,7 +24,7 @@ export const handleEqual = state => {
     const previous = parseFloat(previousValue);
     const resetState = {
         operator: null,
-        previousValue: null
+        previousValue: '0'
     };
 
     if (operator === '/') {
